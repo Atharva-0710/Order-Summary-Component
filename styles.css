@@ -1,0 +1,133 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    width: 28%;
+    height: 80%;
+    padding-top: 0;
+    border-radius: 10px;
+    /* padding: 2rem; */
+}
+
+.illustration-img {
+    /* margin-top: 0; */
+    max-width: 100%;
+    /* position: relative;
+    top: 0; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.info {
+    text-align: center;
+    margin: 1rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.info p {
+    padding: 0 3.5rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: gray;
+}
+
+/* cta section  */
+
+.cta {
+    /* margin: 1rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 0.5rem;
+    width: 75%;
+}
+
+
+.music-icon {
+    width: 2.5rem;
+    display: inline-block;
+    margin: auto 1rem auto 0rem;
+}
+
+.cta h2 {
+    /* margin: auto 0; */
+    font-size: 1rem;
+}
+
+.cta a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+/* .cta p {
+    margin-top: 0.5rem;
+} */
+
+/* .cta a {
+    margin: 0rem 4.5rem;
+    margin-left: 8rem;
+} */
+
+/* button  */
+button {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1.2rem;
+    width: 75%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(223, 47%, 23%);
+}
+
+.cancel {
+    margin-bottom: 6%;
+}
+
+.cancel a {
+    text-decoration: none;
+    color: rgb(84, 83, 83);
+}
+
+.cancel a:hover {
+    color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* mobile design  */
+@media (max-width: 1440px) {
+    main {
+        width: 80%;
+    }
+}
